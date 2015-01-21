@@ -28,10 +28,6 @@
     </developers>
 
     <distributionManagement>
-        <site>
-            <id>github.com</id>
-            <url>git:gh-pages://git@github.com:brutusin/brutusin.git</url>
-        </site>
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -74,13 +70,6 @@
     </properties>
     
     <build>
-        <extensions>
-            <extension>
-                <groupId>ar.com.synergian</groupId>
-                <artifactId>wagon-git</artifactId>
-                <version>0.2.3</version>
-            </extension>
-        </extensions>
         <pluginManagement>
             <plugins>
                 <plugin>
