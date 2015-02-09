@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.brutusin</groupId>
     <artifactId>brutusin</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <description>Brutusin parent project</description>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
@@ -60,7 +60,7 @@
         <url>https://github.com/brutusin/brutusin</url>
         <connection>scm:git:https://github.com/brutusin/brutusin.git</connection>
         <developerConnection>scm:git:https://github.com/brutusin/brutusin.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.4</tag>
     </scm>
 
     <properties>
